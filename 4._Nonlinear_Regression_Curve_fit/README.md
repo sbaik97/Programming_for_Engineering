@@ -9,7 +9,7 @@ This assignment is about fitting models to data and analyzing data to determine 
 * Create bar plot
 
 
-#### 4-1 Linear systems of equations
+### # 4-1 Linear systems of equations
 
 ![images](images/curve_fitting1.png)
 
@@ -18,14 +18,19 @@ This assignment is about fitting models to data and analyzing data to determine 
 ![images](images/R_square_value.png)
 
 
-#### 4-2 Nonlinear systems of equations
+### # 4-2 Conditional Curve fit with step fuction
 
-![images](images/f_solve_NonlinerEq.png)
+* Step fuction definition (S)
 
+![images](images/Step_fuction_define.png)
 
-#### 4-3 Solving the Redlich/Kwong Equation of State
+* Fit the data and optimize the parameter
 
-![images](images/Redlich_Kong_Eq.png)
+![images](images/Curve_fit_optimization.png)
 
-#### 3-4 Tutorial source
+### # 4-3 Curve_fit with random number
+
+![images](images/random_nuber_fitting.png)
+
+### Tutorial source
 https://apmonitor.com/che263/index.php/Main/HomePage
