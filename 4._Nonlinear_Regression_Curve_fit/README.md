@@ -2,11 +2,11 @@
 
 This assignment is about fitting models to data and analyzing data to determine statistical quantities. Data analysis is a major part of an engineer's ability to extract useful and actionable information from data.
 
-* Nonlinear regression
+1. Nonlinear regression
 
-* Statistical and other 
+2. Statistical and other 
 
-* Create bar plot
+3. Create bar plot
 
 
 ### # 4-1 Linear systems of equations
