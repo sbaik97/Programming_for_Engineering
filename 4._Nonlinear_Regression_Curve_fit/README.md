@@ -1,4 +1,4 @@
-## Task 3: ##  Nonlinear Regression Curve Fit
+## Task 4: Nonlinear Regression Curve Fit
 
 This assignment is about fitting models to data and analyzing data to determine statistical quantities. Data analysis is a major part of an engineer's ability to extract useful and actionable information from data.
 
@@ -11,8 +11,11 @@ This assignment is about fitting models to data and analyzing data to determine 
 
 #### 4-1 Linear systems of equations
 
-![images](3.1_Solving_LinearEq.ipynb)
+![images](images/curve_fitting1.png)
 
+* R_square for Curve_fitting evaluation 
+
+![images](images/R_square_value.png)
 
 
 #### 4-2 Nonlinear systems of equations
