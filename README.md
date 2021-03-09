@@ -11,8 +11,10 @@ https://apmonitor.com/che263/index.php/Main/HomePage
 
 2.  Basics
 
-3.	Equation Solving
+3.	Solving the linear and Non-linear equations
 
 4.  Regression analysis and curve fitting
+
+5.  Sovint the differential equation
 
 
