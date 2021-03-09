@@ -4,8 +4,7 @@ Systems of equations are solved by finding variable values that satisfy all of t
 
 #### 3-1 Linear systems of equations
 
-![images](images/Linear_eq.png)
-
+3.1_Solving_LinearEq.ipynb
 
 #### 3-2 Nonlinear systems of equations
 
