@@ -1,4 +1,4 @@
-# Programming-for-Engineers
+# Programming-for-Engineering
 Data Science for Material Science
 
 * Tutorial source
