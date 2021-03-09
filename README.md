@@ -15,6 +15,6 @@ https://apmonitor.com/che263/index.php/Main/HomePage
 
 4.  Regression analysis and curve fitting
 
-5.  Soving the differential equation
+5.  Solving the differential equation
 
 
