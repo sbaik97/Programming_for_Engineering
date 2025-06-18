@@ -1,0 +1,190 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO+iPe+tM/vDDHoTs6Ash7I",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sbaik97/Programming_for_Engineering/blob/main/1.1%20Solve%20the%20Linear%20Equation\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**1. Solve the Linear Equation**"
+      ],
+      "metadata": {
+        "id": "ttDdf_mafazl"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Prob.1 Linear equation 3(2x - 5) - 4(9 - x) = 29**"
+      ],
+      "metadata": {
+        "id": "k5BqON2zgWUj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Add sympy library\n",
+        "from sympy import symbols, solve\n"
+      ],
+      "metadata": {
+        "id": "P1xlhuLxf6O8"
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Define the variable\n",
+        "x = symbols('x')"
+      ],
+      "metadata": {
+        "id": "G_3VQcQxgQcL"
+      },
+      "execution_count": 2,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Define the equation, 3(2x - 5) - 4(9 - x) = 29\n",
+        "# Rearrange the equation so one side is equal to zero\n",
+        "Eq = 3*(2*x - 5) - 4*(9 - x) - 29"
+      ],
+      "metadata": {
+        "id": "qJTjg-zcg4_7"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Solve the equation, finds the value of x that makes the equation equal to zero.\n",
+        "solution = solve(Eq, x)"
+      ],
+      "metadata": {
+        "id": "h4MW_ytBgiE9"
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print the solution\n",
+        "print(f\"The solution to the equation 3(2x-5)-4(9-x) = 29 is x = {solution[0]}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gbKL9BP2h2mE",
+        "outputId": "65275e68-bc62-4dcd-97f0-568c50d47a46"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The solution to the equation 3(2x-5)-4(9-x) = 29 is x = 8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Prob.2 (8g+6)/12-(16g-3)/15=19/20**"
+      ],
+      "metadata": {
+        "id": "pqCLDsaGf4r7"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Define the variable\n",
+        "g = symbols('g')"
+      ],
+      "metadata": {
+        "id": "AaDy-Wp2IP4V"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Define the equation, (8g+6)/12-(16g-3)/15=19/20\n",
+        "equation = (8*g + 6)/12 - (16*g - 3)/15 - 19/20"
+      ],
+      "metadata": {
+        "id": "CO9JfySaIWhI"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Solve the equation for g\n",
+        "solution = solve(equation, g)"
+      ],
+      "metadata": {
+        "id": "sY8H-O12kSe1"
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print the solution\n",
+        "print(f\"The solution for g from the equation is g = {solution[0]}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ELW6jNW8kaBq",
+        "outputId": "5290bd62-ac8e-411b-f1e5-e86b6db7c734"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The solution for g from the equation is g = -0.625000000000000\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
